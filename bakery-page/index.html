@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Landing Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="title">
+        <img
+          id="header-img"
+          class="logo"
+          src="https://imgs.search.brave.com/AYM-K0u_HR_UyTLVnYxLPnZR5qHTQ_sg3FNwsAv4eoo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzEzLzQ4LzQ1/LzM2MF9GXzExMzQ4/NDU1OF9UQ1VCRXN4/WGlEVDZUTE5ndWVU/WDdPYXcxdlFRVUdN/bi5qcGc"
+        />
+        <h1>COZY BAKERY</h1>
+      </div>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#baking-process">Baking Process</a>
+        <a class="nav-link" href="#our-goods">Our Goods</a>
+        <a class="nav-link" href="#newsletter">Newsletter</a>
+      </nav>
+    </header>
+    <main>
+      <section id="baking-process">
+        <h2 class="section-header">Baking Process</h2>
+        <p>
+          Take a look at how we are making our famous goods. It is a difficult
+          but rewarding process at the end of whitch we can see happy faces of
+          our customers.
+        </p>
+        <!-- <video id="video" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video> -->
+        <iframe
+          id="video"
+          src="https://www.youtube.com/embed/C8PUlZrngZQ"
+        ></iframe>
+      </section>
+
+      <section id="our-goods">
+        <h2 class="section-header">Our Goods</h2>
+        <p>
+          We provide a wide variety of baked goods. Each of them made with care.
+          Here you can see what deliciusness we provide, so you can decide if
+          you're interested. And we have a sneaking suspition you might be.
+        </p>
+        <div class="gallery">
+          <div class="item">
+            <h3>Basic Bread</h3>
+            <img
+              src="https://imgs.search.brave.com/L7evm-PxnlBwLGVYLofUR9zmssK8fWGS3ZnMEWzvNtY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTI1/NTExMzQwL3Bob3Rv/L3doaXRlLWJyZWFk/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz16NWYxLWVKRlh3/RnZjc0dWSFJuam5R/SmRJV0Nzc3ljWnY1/LXBfX2dBYUM0PQ"
+              alt="image of bread"
+            />
+          </div>
+          <div class="item">
+            <h3>Whole Wheat bread</h3>
+            <img
+              src="https://imgs.search.brave.com/kmHH64gEFm735ECq2VH303s9Ctsiunrgz_lJDC1a4_U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGlla2Fybmlha2xv/cy5wbC93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wNC9DSExF/Ql9XSUVMT1pJQVJO/SVNUWTEtNzY4eDUx/Mi5qcGc"
+              alt="image of a good"
+            />
+          </div>
+          <div class="item">
+            <h3>Focaccia</h3>
+            <img
+              src="https://imgs.search.brave.com/_EczAzcxAhqF3ZMu8OnbO9QIhcZHni88I3nQrp1Ecjc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU0/OTUyMDYwL3Bob3Rv/L2l0YWxpYW4tZm9j/YWNjaWEtYnJlYWQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVlFYVZrcTRZZGFz/Y2JpTjQ4Wmo2N0VR/TGcxNlh4elFYeWFj/dWIwSnVUVlE9"
+              alt="image of a focaccia"
+            />
+          </div>
+          <div class="item">
+            <h3>Ciabatta</h3>
+            <img
+              src="https://imgs.search.brave.com/mfw7Y_6mt0PvGPZhw7lElZ7mtg1EdwvLgWvOSDwnQt0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlcGVyZmVjdGxv/YWYuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzA4L3Ro/ZXBlcmZlY3Rsb2Fm/X3NvdXJkb3VnaF9j/aWFiYXR0YV9icmVh/ZC0xMDgweDcyMC5q/cGc"
+              alt="image of a ciabatta"
+            />
+          </div>
+          <div class="item">
+            <h3>Baguettes</h3>
+            <img
+              src="https://imgs.search.brave.com/NbPDaS_o-jUhhUCBHUPfBQr5V3YUnP6AR9khG0w8TaM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQy/MTk4OTIxNy9waG90/by9mcmVuY2gtYmFn/dWV0dGUuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVhGbzhI/T2pUTjk3cHp5TDAz/TzdfWUkzbU1CaHdI/a3lGcE5ROFhqanhp/M1U9"
+              alt="image of a baguette"
+            />
+          </div>
+          <div class="item">
+            <h3>Buns</h3>
+            <img
+              src="https://imgs.search.brave.com/SLUn_PyyKJA7DYILMXR4EpXX510LcY1duqDfHvlP2eg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTE4/MzY1OTMvcGhvdG8v/YnJlYWQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPXZVejBP/clVBMjFTd1g4a2Rh/QmZsZVRHM3lGM2lk/WFgxLUNBRDllU2tz/UjA9"
+              alt="image of buns"
+            />
+          </div>
+          <div class="item">
+            <h3>Croissants</h3>
+            <img
+              src="https://imgs.search.brave.com/33AGzk7j-MEg4ldfcICoHhZNYGVhYkr766i31pJ6Sjo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzQ1Lzc4LzEy/LzM2MF9GXzQ1Nzgx/MjkwX1dha1N5VW9t/SEtURmswaVlwVHNk/c1ZLVnpaN1RrZ0I2/LmpwZw"
+              alt="image of a criossant"
+            />
+          </div>
+          <div class="item">
+            <h3>Muffins</h3>
+            <img
+              src="https://imgs.search.brave.com/5j6p-1R9dWZKc1wWo9FkOeSCCtDajrwUGXhUtQX6lbI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg4/MDI3MzczL3Bob3Rv/L211ZmZpbnMuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVFO/c1VkQ1dxMS1TOTlt/QVJDZHVyQnhrZWxl/eWlGQ0RaSTNCNHlr/OGlJamM9"
+              alt="image of a pizza"
+            />
+          </div>
+          <div class="item">
+            <h3>Brioche</h3>
+            <img
+              src="https://imgs.search.brave.com/C7QGO_5JxVoHq_t4fkrghQSiuY-HJAu0e2nM-Um45sQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW1tZWRpYXRl/LmNvLnVrL3Byb2R1/Y3Rpb24vdm9sYXRp/bGUvc2l0ZXMvMzAv/MjAyMC8wOC9icmlv/Y2hlLTU5N2I1Zjgu/anBnP3F1YWxpdHk9/OTAmcmVzaXplPTQ0/MCw0MDA"
+              alt="image of a brioche"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter">
+        <h2 class="section-header">Newsletter</h2>
+        <p>
+          If you find yourself interested in what we do and want to stay up to
+          date, sign in for our newsletter.
+        </p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            type="email"
+          />
+          <input
+            id="submit"
+            type="submit"
+            target="https://www.freecodecamp.com/email-submit"
+          />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
